@@ -69,7 +69,7 @@ namespace ICSharpCode.Decompiler
 			if (needsIndent) {
 				needsIndent = false;
 				for (int i = 0; i < indent; i++) {
-					writer.Write('\t');
+					writer.Write("    ");
 				}
 				column += indent;
 			}
